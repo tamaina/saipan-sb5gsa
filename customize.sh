@@ -7,7 +7,7 @@ if [ $APILEVEL -lt 31 ] ; then
 fi
 
 MODEL=$(getprop ro.opa.device_model_id)
-if [ $MODEL = "motorola-saipan" ] ; then
+if [ $MODEL != "motorola-saipan" ] ; then
 	abort "Only motorola-saipan (moto g50 5G) is supported."
 fi
 
