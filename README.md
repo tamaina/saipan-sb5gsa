@@ -1,9 +1,9 @@
-# Magisk Module: enable Softbank 5G SA for moto g50 5G (saipan, Android 12)
+# Magisk Module: enable to catch Softbank 5G SA for moto g50 5G (saipan, Android 12)
 
 Softbank 5G SAをmoto g50 5G(saipan, Android 12)で掴めるようにします。  
 CellMapperの記録用としてどうぞ。
 
-Softbank 5G SA can be grabbed by moto g50 5G.  
+Softbank 5G SA can be catched by moto g50 5G.  
 This is for CellMapper's record.
 
 ## 注意 / ATTENTION
@@ -11,7 +11,7 @@ This is for CellMapper's record.
 1. **SIMカードの種類が`5G-USIMnano`である必要があります。**  
    **Make sure the SIM card type is `5G-USIMnano`.**
 2. **電波は掴みますが、通信はできません。**  
-   **It grabs the signal but cannot communicate.**
+   **It catches the signal but cannot communicate.**
 
 ## インストール方法 / Installation
 1. [リリース一覧](https://github.com/tamaina/saipan-sb5gsa/releases)から最新のリリースの`Source code (zip)`を選択し、zipファイルを端末にダウンロードします。  
@@ -20,6 +20,16 @@ This is for CellMapper's record.
    Perform the module installation operation from the Magisk application and select the downloaded zip file.
 3. 端末を再起動します。  
    Reboot the device.
+4. NRのみを掴むようにします:  
+   Make sure to catch only NR:  
+   1. 電話アプリで`*#*#4636#*#*`と入力  
+      Type `*#*#*#4636#*#**` in the phone app.
+   2. 「インデックスを選択」でSoftbankのSIMの方を選択
+      Under "Select Index," select the Softbank SIM one.
+   3. 「優先ネットワークの種類を設定」を`NR only`に設定  
+      Set "Set preferred network type" to `NR only`.
+   4. しばらく待つとCellMapperが5G SAを掴んでくれるかと思います。  
+      I think CellMapper will catch the 5G SA if we wait a while.
 
 # Development
 
