@@ -8,7 +8,7 @@ This is for CellMapper's record.
 
 ## 注意 / ATTENTION
 
-1. SIMカードの種類が`5G-USIMnano`である必要があります。
+1. **SIMカードの種類が`5G-USIMnano`である必要があります。**  
    **Make sure the SIM card type is `5G-USIMnano`.**
 2. **電波は掴みますが、通信はできません。**  
    **It grabs the signal but cannot communicate.**
