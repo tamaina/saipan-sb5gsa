@@ -57,5 +57,5 @@ This is for CellMapper's record.
   }
 ```
 
-s44020.txtをpbにエンコードするには次の通り実行する:
+s44020.txtをpbにエンコードするには次の通り実行する:  
 To encode s44020.txt, execute `protoc --encode=com.google.carrier.CarrierSettings carrier_settings.proto carrier_list.proto < s44020.txt > s44020.pb`
