@@ -23,6 +23,8 @@ This is for CellMapper's record.
 
 # Development
 
+## s44020.pbの作り方 / How to make s44020.pb
+
 1. 作業ディレクトリを用意し、adbと[protoc](https://github.com/protocolbuffers/protobuf/releases)を使えるようにする。  
    Prepare a working directory and make adb and [protoc](https://github.com/protocolbuffers/protobuf/releases) available.
 2. https://android.googlesource.com/platform/tools/carrier_settings/+/refs/heads/master/proto からcarrier_settings.protoとcarrier_list.protoを作業ディレクトリにダウンロードする。
